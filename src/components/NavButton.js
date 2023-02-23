@@ -130,18 +130,8 @@ function NavButton(props) {
   ) : (
     <a
       className={classNames(
-        path === to
-          ? classNames(
-              scrollPosition > 0
-                ? "text-red-secondary lg:border-red-secondary border-transparent"
-                : "text-red-secondary lg:text-yellow-logo lg:border-yellow-logo border-transparent"
-            )
-          : classNames(
-              scrollPosition > 0
-                ? "text-blue-primary border-transparent lg:hover:border-blue-primary"
-                : "lg:text-white text-blue-primary border-transparent lg:hover:border-blue-secondary"
-            ),
-        "py-2 lg:mx-2 mx-4 transition-all duration-300 flex items-center font-medium text-lg border-b-2"
+        path === to ? "text-blue-600" : "text-black",
+        "hover:text-blue-600 border-transparent hover:border-blue-600 py-2 mx-4 transition-all duration-300 flex items-center font-bold border-b-2"
       )}
       aria-current="page"
       href={to}
