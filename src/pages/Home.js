@@ -1,5 +1,10 @@
 import { Fragment } from "react";
-import { FaRegClock, FaStethoscope, FaUsers } from "react-icons/fa";
+import {
+  FaQuoteLeft,
+  FaRegClock,
+  FaStethoscope,
+  FaUsers,
+} from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -19,7 +24,7 @@ const Home = () => {
                 href="#"
                 className="btn-primary bg-blue-600 hover:bg-blue-700 text-white border-blue-600 hover:border-blue-700"
               >
-                Talk To a Doctor
+                Talk To a Doctor Now
               </a>
             </div>
             <div className="flex items-center justify-center">
@@ -198,7 +203,7 @@ const Home = () => {
               href="#"
               className="btn-primary bg-blue-600 hover:bg-blue-700 text-white border-blue-600 hover:border-blue-700"
             >
-              Get Started
+              Get Started Now
             </a>
           </div>
         </div>
@@ -224,7 +229,7 @@ const Home = () => {
               href="#"
               className="btn-primary bg-blue-600 hover:bg-blue-700 text-white border-blue-600 hover:border-blue-700"
             >
-              Get Started
+              Get Started Now
             </a>
           </div>
           <div className="md:order-last order-first">
@@ -244,11 +249,174 @@ const Home = () => {
             </h2>
           </div>
           <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-6">
-            <div className="mb-4">
-              <div className="bg-white rounded-2xl flex flex-col"></div>
+            <div className="">
+              <div className="bg-white rounded-2xl flex flex-col p-4">
+                <FaQuoteLeft className="text-orange-400 mb-1" />
+                <p className="mb-4">
+                  Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
+                  justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+                  id elit non mi porta gravida at eget metus.
+                </p>
+                <div className="flex justify-start">
+                  <img
+                    className="w-[50px] h-[50px] rounded-full object-cover mr-4"
+                    src="img/team/avatar2.jpg"
+                    alt="Avatar"
+                  />
+                  <div className="flex flex-col justify-center items-start">
+                    <p className="font-bold text-blue-600">John Smith</p>
+                    <p className="text-slate-600">Erat netus</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="mb-4"></div>
-            <div className="mb-4 col-span-1 lg:col-span-1 sm:col-span-2"></div>
+            <div className="">
+              <div className="bg-white rounded-2xl flex flex-col p-4">
+                <FaQuoteLeft className="text-orange-400 mb-1" />
+                <p className="mb-4">
+                  Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
+                  justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+                  id elit non mi porta gravida at eget metus.
+                </p>
+                <div className="flex justify-start">
+                  <img
+                    className="w-[50px] h-[50px] rounded-full object-cover mr-4"
+                    src="img/team/avatar4.jpg"
+                    alt="Avatar"
+                  />
+                  <div className="flex flex-col justify-center items-start">
+                    <p className="font-bold text-blue-600">John Smith</p>
+                    <p className="text-slate-600">Erat netus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-1 lg:col-span-1 sm:col-span-2 lg:w-full w-full sm:w-1/2 mx-auto">
+              <div className="bg-white rounded-2xl flex flex-col p-4">
+                <FaQuoteLeft className="text-orange-400 mb-1" />
+                <p className="mb-4">
+                  Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
+                  justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+                  id elit non mi porta gravida at eget metus.
+                </p>
+                <div className="flex justify-start">
+                  <img
+                    className="w-[50px] h-[50px] rounded-full object-cover mr-4"
+                    src="img/team/avatar5.jpg"
+                    alt="Avatar"
+                  />
+                  <div className="flex flex-col justify-center items-start">
+                    <p className="font-bold text-blue-600">John Smith</p>
+                    <p className="text-slate-600">Erat netus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container mx-auto 2xl:px-32 mt-12">
+        <div className="grid md:grid-cols-2 gap-6 mb-12">
+          <img
+            className="w-full"
+            src="img/doctors-dedicated-section.png"
+            alt="doctors-dedicated-section"
+          />
+          <div className="flex flex-col justify-center">
+            <h2 className="text-5xl mb-2">
+              Doctors dedicated to getting you the care you deserve.
+            </h2>
+            <p className="mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              ac sollicitudin mi. Pellentesque lectus orci, vulputate vitae
+              consectetur nec, imperdiet in nunc. Integer at felis id mauris
+              porttitor bibendum. Fusce massa massa, sagittis non mattis ac,
+              consequat et elit. Phasellus suscipit ac purus et tincidunt. Sed
+              id nunc non augue auctor sodales. Integer nec eleifend felis.
+              Maecenas vel sapien ut mauris porta maximus. Donec risus erat,
+              dapibus eget nunc non, interdum sodales quam. Integer in congue
+              ex. Morbi sem velit, mollis vitae orci vehicula, vestibulum
+              consectetur felis. Curabitur eget felis sodales, aliquet mauris
+              in, pellentesque massa. Sed dictum enim nec ultricies mattis.
+              Curabitur et nibh elit. Suspendisse luctus finibus turpis, sed
+              sagittis lorem pulvinar at.
+            </p>
+            <a
+              href="#"
+              className="btn-primary bg-blue-600 hover:bg-blue-700 text-white border-blue-600 hover:border-blue-700"
+            >
+              Get Started Now
+            </a>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-6 mt-12">
+          <div className="md:order-first order-last flex flex-col justify-center">
+            <h2 className="text-5xl mb-5">Why TelaQ</h2>
+            <div className="flex flex-col justify-center">
+              <div className="flex items-center mb-8">
+                <img
+                  src="img/clock.png"
+                  className="w-[77px] h-[77px] mr-6"
+                  alt="accessible"
+                />
+                <div className="flex flex-col justify-center">
+                  <h4 className="mb-2 text-2xl">Accessible</h4>
+                  <p>
+                    No wait time. Schedule an appointment based on your
+                    availablility
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center mb-8">
+                <img
+                  src="img/fem-doc.png"
+                  className="w-[77px] h-[77px] mr-6"
+                  alt="accessible"
+                />
+                <div className="flex flex-col justify-center">
+                  <h4 className="mb-2 text-2xl">Balanced</h4>
+                  <p>
+                    Certified physicians will curate your treatment based on
+                    your specific needs
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center mb-8">
+                <img
+                  src="img/green-shield.png"
+                  className="w-[77px] h-[77px] mr-6"
+                  alt="accessible"
+                />
+                <div className="flex flex-col justify-center">
+                  <h4 className="mb-2 text-2xl">Confidential</h4>
+                  <p>
+                    Your privacy is our upmost concern. TelaQ maintains all
+                    GIPAA compliance
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center mb-8">
+                <img
+                  src="img/heart-in-hand.png"
+                  className="w-[77px] h-[77px] mr-6"
+                  alt="accessible"
+                />
+                <div className="flex flex-col justify-center">
+                  <h4 className="mb-2 text-2xl">Dedicated</h4>
+                  <p>
+                    Individualized care centered around achieving the best
+                    results for you.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="md:order-last order-first">
+            <img
+              className="w-full"
+              src="img/why-tela-q-graphic.png"
+              alt="why-tela-q"
+            />
           </div>
         </div>
       </section>

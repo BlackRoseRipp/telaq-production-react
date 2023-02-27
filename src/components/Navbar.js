@@ -22,7 +22,7 @@ const Navbar = () => {
           scrollPosition > 0
             ? "bg-white"
             : "md:bg-transparent bg-white md:border-transparent",
-          "fixed w-full top-0 flex justify-between items-center transition-all z-50 border-b border-neutral-300"
+          "fixed w-full top-0 flex justify-between items-center transition-all z-50 border-b border-neutral-200"
         )}
       >
         <div className="lg:container flex flex-wrap justify-between items-center md:mx-auto w-full">
