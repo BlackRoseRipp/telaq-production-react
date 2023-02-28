@@ -85,7 +85,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="text-white bg-blue-600 hover:bg-blue-700 rounded-full font-bold border-2 py-3 px-8 transition-all hidden lg:block"
+                    className="text-white bg-blue-600 hover:bg-blue-700 rounded-full font-bold py-3 px-8 transition-all hidden lg:block"
                     href="http://yourhealthfile.com/"
                     target="_blank"
                     rel="noreferrer noopener"

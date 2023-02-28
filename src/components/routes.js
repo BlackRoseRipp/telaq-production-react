@@ -2,11 +2,13 @@ import React, { Suspense } from "react";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 
 const Home = React.lazy(() => import("../pages/Home"));
+const Contact = React.lazy(() => import("../pages/Contact"));
 const PageNotFound = React.lazy(() => import("../pages/PageNotFound"));
 
 export const routes = () => {
   const pages = [
     { path: "/", component: <Home /> },
+    { path: "/contacts", component: <Contact /> },
     { path: "*", component: <PageNotFound /> },
   ];
 
